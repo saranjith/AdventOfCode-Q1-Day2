@@ -1,5 +1,6 @@
 /**
- *
+ * @author : saranjith s
+ * @date: 03-12-2019
  */
 
 package in.saran;
@@ -15,10 +16,8 @@ public class Main {
             switch (intCodes[i]){
                 case 1: intCodes[intCodes[i+3]] = intCodes[intCodes[i+1]]+intCodes[intCodes[i+2]];
                         break;
-
                 case 2: intCodes[intCodes[i+3]] = intCodes[intCodes[i+1]] * intCodes[intCodes[i+2]];
                         break;
-
                 case 99: break;
             }
         }
