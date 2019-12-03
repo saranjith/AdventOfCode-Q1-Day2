@@ -22,11 +22,7 @@ public class Main {
             }
         }
 
-        System.out.println("final array\n");
-        for (int i=0;i<intCodes.length;i++){
-            System.out.print(intCodes[i]+",");
-        }
-
+        System.out.println("\nFinal Answer: "+intCodes[0]+"\n");
     }
 
 }
